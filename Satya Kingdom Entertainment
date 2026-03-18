@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Satya Kingdom Entertainment</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background: #000;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Navbar */
+nav {
+    background: #ffcc00;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: black;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: red;
+}
+
+/* Hero */
+.hero {
+    background: url('https://via.placeholder.com/1200x400') no-repeat center;
+    background-size: cover;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 40px;
+}
+
+/* Button */
+.btn {
+    background: red;
+    padding: 12px 25px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: black;
+}
+
+/* Section */
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+/* Services */
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Satya Kingdom Entertainment</h1>
+    <p>Entertainment & Event Services</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Services</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+</nav>
+
+<!-- Hero -->
+<div class="hero">
+    <h1>Welcome to Satya Kingdom Entertainment</h1>
+    <p>Make Your Events Grand & Memorable 🎉</p>
+    <button class="btn">Book Now</button>
+</div>
+
+<!-- Services -->
+<section>
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="card">
+            <h3>DJ & Music</h3>
+            <p>High quality DJ sound system</p>
+        </div>
+
+        <div class="card">
+            <h3>Event Decoration</h3>
+            <p>Beautiful decoration for all events</p>
+        </div>
+
+        <div class="card">
+            <h3>Lighting Setup</h3>
+            <p>Professional lighting services</p>
+        </div>
+    </div>
+</section>
+
+<!-- About -->
+<section>
+    <h2>About Us</h2>
+    <p>Hum aapke events ko special banane ke liye best entertainment services provide karte hain.</p>
+</section>
+
+<!-- Contact -->
+<section>
+    <h2>Contact Us</h2>
+    <p>📞 7417968615</p>
+    <p>📍 Your Location Here</p>
+</section>
+
+<footer>
+    <p>© 2026 Satya Kingdom Entertainment | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
